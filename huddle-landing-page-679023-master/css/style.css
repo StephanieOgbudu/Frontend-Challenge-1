@@ -1,0 +1,148 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+}
+h1{
+	font-weight: 400, 700;
+}
+h3{
+	font-weight: 400;
+}
+.content{
+	background-image: url('../images/bg-desktop.svg');
+	background-color: hsl(257, 40%, 49%);
+	padding: 30px;
+}
+.container{
+	width: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.logo{
+	padding: 10px;
+}
+.details{
+	display: flex;
+	flex-direction: row;
+}
+.column{
+	width: 50%;
+	padding: 10px;
+}
+.pic{
+	width: 100%;
+}
+.text{}
+.register{
+	border-radius: 40px;
+	border: none;
+	color: hsl(257, 40%, 49%);
+	background-color: #fff;
+	padding: 5px;
+	width: 150px;
+	font-weight: 700;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.register:hover{
+	cursor: pointer;
+}
+
+footer{
+	float: right;
+}
+footer ul{
+	display: inline-flex;
+	list-style: none;
+}
+footer ul li{
+	font-size: 20px;
+	border: 1px #fff solid;
+	border-radius: 30px 30px;
+	color: #fff;
+	padding: 5px;
+	margin: 10px;
+}
+/*Media Queries*/
+@media screen (max-width: 1300px){
+	.content{
+		background-image: url('../images/bg-mobile.svg');
+	}
+	.details{
+		flex-direction: column;
+	}
+	.column{
+		width: 100%;
+	}
+	.logo img{
+		max-width: 60%;
+	}
+	.pic img{
+		max-width: 100%;
+	}
+	footer{
+		float: none;
+	}
+}
+@media screen (max-width: 1020px) {
+	
+}
+@media only screen and (max-width: 1024px){
+	.logo img{
+		max-width: 60%;
+	}
+}
+@media only screen and (max-width: 900px){
+	.logo img{
+		max-width: 70%;
+	}
+	.details{
+		display: flex;
+	}
+}
+@media only screen and (max-width: 1020px){
+	.content{
+		background-image: url('../images/bg-mobile.svg');
+	}
+	.details{
+		flex-direction: column;
+	}
+	.column{
+		width: 100%;
+	}
+	.logo img{
+		max-width: 60%;
+	}
+	.pic img{
+		max-width: 100%;
+	}
+	footer{
+		float: none;
+	}
+}
+@media only screen and (max-width: 700px){
+	.content{
+		background-image: url('../images/bg-mobile.svg');
+	}
+	.details{
+		flex-direction: column;
+	}
+	.column{
+		width: 100%;
+	}
+	.logo img{
+		max-width: 60%;
+	}
+	.pic img{
+		max-width: 100%;
+	}
+	footer{
+		float: none;
+	}
+}
